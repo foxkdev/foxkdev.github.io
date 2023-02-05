@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import mindfully from "../assets/imgs/mindfully1.jpg";
-import seizeTheDay from "../assets/imgs/seize-the-day.jpg";
+import kettu from "../assets/imgs/kettu_capture.png";
+import alertacoches from "../assets/imgs/alertacoches_capture.png";
 // import codingResources from "../assets/imgs/codingresourcesAPI.jpg";
 // import fullstack from "../assets/imgs/fullstackapi.jpg";
 // import tictactoe from "../assets/imgs/tictactoe.jpg";
@@ -14,7 +14,7 @@ export const Projects = () => {
       title: "Kettu.tv",
       description:
         "Kettu.tv is a streaming platform where small content creators can growh with their communities.",
-      imgUrl: mindfully,
+      imgUrl: kettu,
       // githubUrl: "https://github.com/foxkdev",
       deployedUrl: "https://kettu.tv",
     },
@@ -22,8 +22,8 @@ export const Projects = () => {
       title: "Alertacoches",
       description:
         "Busca y encuentra anuncios en los principales portales de compra-venta de España. Podrás encontrar coches de segunda mano de tus marcas favoritas: Volkswagen, Audi, Mercedes, Citroën, Peugeot... Con AlertaCoches, buscar un coche bueno, bonito y barato, ¡es pan comido!",
-      imgUrl: seizeTheDay,
-      deployedUrl: "https://seize-the-day.netlify.app/",
+      imgUrl: alertacoches,
+      deployedUrl: "https://alertacoches.es/",
     }
   ];
 
