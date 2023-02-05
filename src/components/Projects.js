@@ -23,7 +23,6 @@ export const Projects = () => {
       description:
         "Busca y encuentra anuncios en los principales portales de compra-venta de España. Podrás encontrar coches de segunda mano de tus marcas favoritas: Volkswagen, Audi, Mercedes, Citroën, Peugeot... Con AlertaCoches, buscar un coche bueno, bonito y barato, ¡es pan comido!",
       imgUrl: seizeTheDay,
-      // githubUrl: "https://github.com/alexisintech/seize-the-day",
       deployedUrl: "https://seize-the-day.netlify.app/",
     }
   ];
